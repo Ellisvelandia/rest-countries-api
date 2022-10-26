@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Countries />}></Route>
+      <Route path="/" element={<Countries />}></Route>
         <Route path="/:name" element={<SingleCountry />}></Route>
       </Routes>
     </BrowserRouter>
